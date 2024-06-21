@@ -27,30 +27,3 @@
 pip install paramiko pandas PyQt5
 
 
-
-
-安装
-将此仓库克隆到您的本地机器：
-bash
-复制代码
-git clone https://github.com/yourusername/server-inspection-tool.git
-导航到项目目录：
-bash
-复制代码
-cd server-inspection-tool
-运行应用程序：
-bash
-复制代码
-python main.py
-使用说明
-打开应用程序。
-填写用户名、密码和命令字段。
-点击“导入IP”按钮，从文件中导入IP地址。
-点击“提交”按钮开始巡检。
-结果将显示在文本区域中，并且输出将记录到server_usage.xlsx和inspection_log.log文件中。
-项目结构
-main.py：运行应用程序的主脚本。
-config.json：保存用户名、密码和命令的文件。
-ips.json：保存IP地址的文件。
-inspection_log.log：巡检结果的日志文件。
-server_usage.xlsx：记录命令输出的Excel文件。
