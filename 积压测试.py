@@ -47,7 +47,7 @@ driver = webdriver.Chrome(service=service,options=chrome_options)
 
 
 # 打开登录页面（请替换为你要登录的网站的URL）
-driver.get("https://20.66.3.35:20009/cas/login?service=https%3A%2F%2F20.66.3.35%3A20026%2FYarn%2FResourceManager%2F56%2Fcluster")
+driver.get("http")
 # 等待页面加载
 #time.sleep(2)
 
