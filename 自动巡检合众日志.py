@@ -53,7 +53,7 @@ def xunjianHeZhong():
 
 
     # 打开登录页面（请替换为你要登录的网站的URL）
-    driver.get("https://20.66.0.3/index.html#")
+    driver.get("https")
     # 等待页面加载
     #time.sleep(2)
 
